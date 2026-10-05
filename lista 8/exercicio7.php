@@ -5,13 +5,13 @@
 
     $num = 0;
 
-    while ($num < 20){
+    while ($num < 15){
         $num++;
 
-        if ($num == 15){
-            echo "tesouro encontrado!!! <br>";
+        if ($num == 7){
+            echo "aliem presidente chegou!!! <br>";
         }else{
-            echo "tesouro não encontrado na cordenada". $num . "<br>";
+            echo "aliem de numero ". $num . " chegou <br>";
         };
     }
 
